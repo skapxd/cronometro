@@ -12,4 +12,33 @@
         text-overflow: ellipsis;
         overflow: hidden
     }
+    &_logo,
+    &_days {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .Header {
+        &_title,
+        &_MenuBurgerIcon {
+            display: none;
+        }
+        &_logo,
+        &_days {
+            display: flex;
+            color: #fff;
+            line-height: 1;
+        }
+        &_logo {
+            font-size: 2.2rem;
+        }
+        &_days {
+            margin-left: auto;
+            margin-right: 1.2rem;
+            font-weight: 400;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+    }
 }
