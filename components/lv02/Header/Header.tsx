@@ -15,7 +15,7 @@ export default function Header() {
 
       {/* Desktop  Components*/}
       <h2 className={Style.Header_logo}>Reloj-Alarma-Clone.es</h2>
-      <Link href={""}>
+      <Link href={"/"}>
         <a className={Style.Header_days}>Días festivos</a>
       </Link>
       {/* Desktop  Components*/}

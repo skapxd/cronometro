@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className={Style.MyApp}>
       <Header />
-      <div  className={Style.MyApp_content}>
-        <SideBar className={`${Style.MyApp_content_sidebar}`}/>
+      <div className={Style.MyApp_content}>
+        <SideBar className={`${Style.MyApp_content_sidebar}`} />
         <Component {...pageProps} />
       </div>
     </div>
