@@ -1,6 +1,6 @@
 import Style from "./Header.module.scss";
-import CustomMenuBurgerIcon from "../Icons/CustomMenuBurgerIcon/CustomMenuBurgerIcon";
-import CustomSettingsIcon from "../Icons/CustomSettingsIcon/CustomSettingsIcon";
+import CustomMenuBurgerIcon from "../../lv01/Icons/CustomMenuBurgerIcon/CustomMenuBurgerIcon";
+import CustomSettingsIcon from "../../lv01/Icons/CustomSettingsIcon/CustomSettingsIcon";
 import Link from "next/link";
 export default function Header() {
   return (
