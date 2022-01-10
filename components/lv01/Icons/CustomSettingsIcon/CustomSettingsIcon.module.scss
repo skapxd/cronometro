@@ -1,0 +1,10 @@
+.SettingsIcon {
+    min-height: 2.6rem;
+    min-width: 2.6rem;
+    max-height: 2.6rem;
+    max-width: 2.6rem;
+    cursor: pointer;
+    & path {
+        fill: #fff;
+    }
+}

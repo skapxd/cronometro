@@ -1,0 +1,15 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    background: var(--grey);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem;
+    &_title {
+        margin: 0 1.8rem;
+        color: #fff;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden
+    }
+}

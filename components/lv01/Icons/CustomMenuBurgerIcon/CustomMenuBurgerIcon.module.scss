@@ -1,0 +1,11 @@
+.MenuBurgerIcon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    &>span {
+        min-height: 0.1rem;
+        min-width: 2.5rem;
+        background: #fff;
+    }
+}
