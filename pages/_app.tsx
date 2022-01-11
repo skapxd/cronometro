@@ -9,7 +9,7 @@ import "../styles/normalice.scss";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className={Style.MyApp}>
-      <Header />
+      <Header className={Style.MyApp_header} />
       <div className={Style.MyApp_content}>
         <SideBar className={`${Style.MyApp_content_sidebar}`} />
         <Component {...pageProps} />

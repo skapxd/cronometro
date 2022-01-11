@@ -16,11 +16,16 @@
     &_days {
         display: none;
     }
+    &_MenuBurgerIcon {
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 760px) {
     .Header {
-        &_title,
+        &_title {
+            display: none;
+        }
         &_MenuBurgerIcon {
             display: none;
         }

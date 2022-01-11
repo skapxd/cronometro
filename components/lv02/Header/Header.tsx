@@ -2,9 +2,16 @@ import Style from "./Header.module.scss";
 import CustomMenuBurgerIcon from "../../lv01/Icons/CustomMenuBurgerIcon/CustomMenuBurgerIcon";
 import CustomSettingsIcon from "../../lv01/Icons/CustomSettingsIcon/CustomSettingsIcon";
 import Link from "next/link";
-export default function Header() {
+
+interface HeaderInterface {
+  className?: string;
+}
+
+export default function Header(props: HeaderInterface) {
+  const { className = "" } = props;
+
   return (
-    <header className={Style.Header}>
+    <header className={`${Style.Header} ${className}`}>
       {/* Mobile Components */}
       <CustomMenuBurgerIcon className={Style.Header_MenuBurgerIcon} />
 
